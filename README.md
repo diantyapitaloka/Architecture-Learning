@@ -6,6 +6,7 @@
 - Each layer within the architecture has a specific function and is responsible for extracting increasingly abstract and complex features as the network depth increases. With greater depth, deep learning architectures can learn more intricate patterns from data, leading to improved performance and more accurate results.
 - Layered Hierarchy Deep learning architectures are organized into an input layer, multiple hidden layers, and a final output layer. This vertical structure allows data to flow sequentially, undergoing transformations at every stage of the process.
 - Neuron Interconnectivity Within these layers are individual units called neurons that connect to one another via mathematical weights. These connections determine how much influence a specific piece of information has as it moves through the network.
+- Feature Abstraction Initial layers typically identify simple edges or shapes, while deeper layers combine these into complex objects or concepts. This hierarchical approach allows the model to understand data in a way that mimics human perception.
 
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/d17a5d5c-4ec0-46b4-9caa-0b427175ea5a" />
 
