@@ -2,7 +2,7 @@
 
 ### 🍛🍡🥟 **Deep Learning Architecture** 🥟🍡🍛
 
-Deep learning architecture refers to the structure or layout of a complex artificial neural network. This architecture consists of multiple layers that process and transform input data into the desired output.  
+- Deep learning architecture refers to the structure or layout of a complex artificial neural network. This architecture consists of multiple layers that process and transform input data into the desired output.  
 
 Each layer within the architecture has a specific function and is responsible for extracting increasingly abstract and complex features as the network depth increases. With greater depth, deep learning architectures can learn more intricate patterns from data, leading to improved performance and more accurate results.
 
