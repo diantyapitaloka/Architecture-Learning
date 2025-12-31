@@ -10,6 +10,7 @@
 - Non-Linear Activation Each neuron uses an activation function to decide whether its signal is strong enough to be passed to the next layer. These functions introduce non-linearity, enabling the architecture to solve problems far more complex than simple linear correlations.
 - Weighted Optimization The architecture relies on adjustable weights and biases that are fine-tuned during the training phase. By constantly updating these values, the network minimizes errors and improves the accuracy of its predictions over time.
 - Backpropagation Mechanism Information travels forward to produce a result, and errors are then sent backward through the architecture to update the neurons. This feedback loop is the fundamental process that allows the architecture to "learn" from its own mistakes.
+- Specialized Topologies Architectures are often customized for specific tasks, such as Convolutional Neural Networks (CNNs) for images or Recurrent Neural Networks (RNNs) for text. These specific layouts ensure the network is structurally optimized for the type of data it is analyzing.
 
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/d17a5d5c-4ec0-46b4-9caa-0b427175ea5a" />
 
