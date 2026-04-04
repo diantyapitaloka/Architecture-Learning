@@ -7,8 +7,7 @@
 - Layered Hierarchy Deep learning architectures are organized into an input layer, multiple hidden layers, and a final output layer. This vertical structure allows data to flow sequentially, undergoing transformations at every stage of the process.
 - Deep learning architecture refers to the structure or layout of a complex artificial neural network. This architecture consists of multiple layers that process and transform input data into the desired output.
 - Each layer within the architecture has a specific function and is responsible for extracting increasingly abstract and complex features as the network depth increases. With greater depth, deep learning architectures can learn more intricate patterns from data, leading to improved performance and more accurate results.
-
-Layered Hierarchy Deep learning architectures are organized into an input layer, multiple hidden layers, and a final output layer. This vertical structure allows data to flow sequentially, undergoing transformations at every stage of the process.
+- Layered Hierarchy Deep learning architectures are organized into an input layer, multiple hidden layers, and a final output layer. This vertical structure allows data to flow sequentially, undergoing transformations at every stage of the process.
 
 Fully Connected layers are typically positioned at the very end of the architecture to compile all the high-level features into a final prediction. These layers connect every neuron from the previous level to every neuron in the next, performing the final classification or regression based on the global context of the input.
 
