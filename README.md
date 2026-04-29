@@ -46,6 +46,7 @@ Generative Adversarial Networks (GANs) consist of two competing architectures, a
 - Loss Functions act as the architectural compass, measuring the discrepancy between the network's prediction and the actual ground truth. During training, this mathematical value is sent backward through the layers to update weights, effectively telling the model how to adjust its internal structure to reduce error.
 - Attention Mechanisms allow the architecture to dynamically weigh the importance of different parts of the input data. Instead of processing everything with equal priority, the network "focuses" its computational resources on the most relevant features, which is the core breakthrough behind modern Transformer models.
 - Pooling Layers serve as a down-sampling mechanism that reduces the spatial dimensions of the data representation. By summarizing features through operations like Max Pooling or Average Pooling, the architecture decreases its computational load and becomes more resistant to small shifts or distortions in the input.
+- Dropout Regularization is a technique where neurons are randomly "turned off" during the training phase to prevent the network from becoming overly reliant on specific nodes. This forces the architecture to develop redundant representations, leading to a more robust model that generalizes better to unseen data.
 
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/d17a5d5c-4ec0-46b4-9caa-0b427175ea5a" />
 
