@@ -45,6 +45,7 @@ Generative Adversarial Networks (GANs) consist of two competing architectures, a
 - Normalization Layers ensure that the data flowing through the network stays within a consistent numerical range across different layers. By stabilizing the distribution of inputs, these layers accelerate the training process and allow the architecture to converge on an optimal solution much faster.
 - Loss Functions act as the architectural compass, measuring the discrepancy between the network's prediction and the actual ground truth. During training, this mathematical value is sent backward through the layers to update weights, effectively telling the model how to adjust its internal structure to reduce error.
 - Attention Mechanisms allow the architecture to dynamically weigh the importance of different parts of the input data. Instead of processing everything with equal priority, the network "focuses" its computational resources on the most relevant features, which is the core breakthrough behind modern Transformer models.
+- Pooling Layers serve as a down-sampling mechanism that reduces the spatial dimensions of the data representation. By summarizing features through operations like Max Pooling or Average Pooling, the architecture decreases its computational load and becomes more resistant to small shifts or distortions in the input.
 
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/d17a5d5c-4ec0-46b4-9caa-0b427175ea5a" />
 
