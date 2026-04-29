@@ -48,6 +48,7 @@ Generative Adversarial Networks (GANs) consist of two competing architectures, a
 - Pooling Layers serve as a down-sampling mechanism that reduces the spatial dimensions of the data representation. By summarizing features through operations like Max Pooling or Average Pooling, the architecture decreases its computational load and becomes more resistant to small shifts or distortions in the input.
 - Dropout Regularization is a technique where neurons are randomly "turned off" during the training phase to prevent the network from becoming overly reliant on specific nodes. This forces the architecture to develop redundant representations, leading to a more robust model that generalizes better to unseen data.
 - Residual Connections, often called "skip connections," allow information to bypass certain layers and flow directly to deeper parts of the network. This clever design helps mitigate the "vanishing gradient" problem, enabling researchers to train incredibly deep architectures without losing signal during the learning process.
+- Recurrent Layers introduce a feedback loop that allows the network to retain a "memory" of previous inputs in a sequence. This makes them indispensable for time-series forecasting and natural language processing, where the meaning of a word or data point depends heavily on what came before it.
 
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/d17a5d5c-4ec0-46b4-9caa-0b427175ea5a" />
 
