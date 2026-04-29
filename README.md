@@ -43,6 +43,7 @@ Generative Adversarial Networks (GANs) consist of two competing architectures, a
 - Backpropagation Mechanism Information travels forward to produce a result, and errors are then sent backward through the architecture to update the neurons. This feedback loop is the fundamental process that allows the architecture to "learn" from its own mistakes.
 - Specialized Topologies Architectures are often customized for specific tasks, such as Convolutional Neural Networks (CNNs) for images or Recurrent Neural Networks (RNNs) for text. These specific layouts ensure the network is structurally optimized for the type of data it is analyzing.
 - Normalization Layers ensure that the data flowing through the network stays within a consistent numerical range across different layers. By stabilizing the distribution of inputs, these layers accelerate the training process and allow the architecture to converge on an optimal solution much faster.
+- Loss Functions act as the architectural compass, measuring the discrepancy between the network's prediction and the actual ground truth. During training, this mathematical value is sent backward through the layers to update weights, effectively telling the model how to adjust its internal structure to reduce error.
 
 <img width="499" alt="image" src="https://github.com/user-attachments/assets/d17a5d5c-4ec0-46b4-9caa-0b427175ea5a" />
 
